@@ -107,5 +107,10 @@ namespace Son_of_Duo
                 label1.Text = "i dont understand";
             }
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

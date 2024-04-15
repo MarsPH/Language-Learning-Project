@@ -4,6 +4,9 @@
     <Compile Update="Game1.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Game2.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Menu.cs">
       <SubType>Form</SubType>
     </Compile>
