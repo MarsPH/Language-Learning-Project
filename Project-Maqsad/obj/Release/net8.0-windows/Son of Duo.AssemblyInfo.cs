@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Son of Duo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e3e2bfdaf243972aa41f468345fbaf11d3e87cb6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+80f6c557cded53daed0bd2bc6d6b47bbf4ee03f8")]
 [assembly: System.Reflection.AssemblyProductAttribute("Son of Duo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Son of Duo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

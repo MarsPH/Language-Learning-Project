@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WinFormsApp3;
 
 namespace Son_of_Duo
 {
@@ -26,8 +27,9 @@ namespace Son_of_Duo
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            menu menu = new menu();
-            menu.Show();
+            FB_MAINF FillingBrank = new FB_MAINF();
+            FillingBrank.Show();
+
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -78,7 +80,9 @@ namespace Son_of_Duo
 
         private void button6_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            FB_MAINF open = new FB_MAINF();
+            open.Show();
         }
 
         private void button7_Click(object sender, EventArgs e)
