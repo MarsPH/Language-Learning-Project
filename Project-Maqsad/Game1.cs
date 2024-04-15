@@ -20,7 +20,7 @@ namespace Son_of_Duo
     "Rouge", "Red",
     "Vert", "Green",
     "Bleu", "Blue",
-    "Voiture", "Car",
+    "Voiture", "AutoMobile",
         };
         private Random random = new Random();
         private Button firstClicked = null;
