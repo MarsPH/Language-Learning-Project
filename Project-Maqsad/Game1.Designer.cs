@@ -64,7 +64,7 @@
             // button2
             // 
             button2.Font = new Font("Microsoft Sans Serif", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button2.Location = new Point(286, 596);
+            button2.Location = new Point(286, 424);
             button2.Name = "button2";
             button2.Size = new Size(195, 166);
             button2.TabIndex = 1;
@@ -74,7 +74,7 @@
             // button3
             // 
             button3.Font = new Font("Microsoft Sans Serif", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button3.Location = new Point(688, 596);
+            button3.Location = new Point(487, 424);
             button3.Name = "button3";
             button3.Size = new Size(195, 166);
             button3.TabIndex = 3;
@@ -104,7 +104,7 @@
             // button6
             // 
             button6.Font = new Font("Microsoft Sans Serif", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button6.Location = new Point(487, 424);
+            button6.Location = new Point(688, 596);
             button6.Name = "button6";
             button6.Size = new Size(195, 166);
             button6.TabIndex = 6;
@@ -114,7 +114,7 @@
             // button7
             // 
             button7.Font = new Font("Microsoft Sans Serif", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button7.Location = new Point(286, 424);
+            button7.Location = new Point(286, 596);
             button7.Name = "button7";
             button7.Size = new Size(195, 166);
             button7.TabIndex = 5;
@@ -124,7 +124,7 @@
             // button8
             // 
             button8.Font = new Font("Microsoft Sans Serif", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button8.Location = new Point(85, 424);
+            button8.Location = new Point(487, 252);
             button8.Name = "button8";
             button8.Size = new Size(195, 166);
             button8.TabIndex = 4;
@@ -134,7 +134,7 @@
             // button9
             // 
             button9.Font = new Font("Microsoft Sans Serif", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button9.Location = new Point(688, 252);
+            button9.Location = new Point(487, 80);
             button9.Name = "button9";
             button9.Size = new Size(195, 166);
             button9.TabIndex = 11;
@@ -144,7 +144,7 @@
             // button10
             // 
             button10.Font = new Font("Microsoft Sans Serif", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button10.Location = new Point(487, 252);
+            button10.Location = new Point(85, 424);
             button10.Name = "button10";
             button10.Size = new Size(195, 166);
             button10.TabIndex = 10;
@@ -164,7 +164,7 @@
             // button12
             // 
             button12.Font = new Font("Microsoft Sans Serif", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button12.Location = new Point(85, 252);
+            button12.Location = new Point(286, 80);
             button12.Name = "button12";
             button12.Size = new Size(195, 166);
             button12.TabIndex = 8;
@@ -184,7 +184,7 @@
             // button14
             // 
             button14.Font = new Font("Microsoft Sans Serif", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button14.Location = new Point(487, 80);
+            button14.Location = new Point(688, 252);
             button14.Name = "button14";
             button14.Size = new Size(195, 166);
             button14.TabIndex = 14;
@@ -194,7 +194,7 @@
             // button15
             // 
             button15.Font = new Font("Microsoft Sans Serif", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button15.Location = new Point(286, 80);
+            button15.Location = new Point(85, 252);
             button15.Name = "button15";
             button15.Size = new Size(195, 166);
             button15.TabIndex = 13;
@@ -250,7 +250,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.FromArgb(192, 255, 255);
+            BackColor = Color.FromArgb(255, 128, 128);
             ClientSize = new Size(982, 788);
             ControlBox = false;
             Controls.Add(button17);

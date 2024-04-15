@@ -16,7 +16,7 @@ namespace Son_of_Duo
         public Quickgame()
         {
             InitializeComponent();
-            button4.Visible = false;
+           
             button5.Visible = false;
             button6.Visible = false;
             button7.Visible = false;
@@ -89,7 +89,7 @@ namespace Son_of_Duo
                 textBox1.Text = "";
                 button7.Hide();
                 textBox1.Hide();
-                button4.Visible = true;
+               
                 button5.Visible = true;
                 button6.Visible = true;
 
