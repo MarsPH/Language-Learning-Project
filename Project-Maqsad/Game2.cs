@@ -145,13 +145,14 @@ namespace Son_of_Duo
             InitializeProgressBar();
             SelectRandomQuestions();
             NextQuestion();
+            BtnBack.Visible = false;
         }
 
         private void InitializeProgressBar()
         {
             progressBar = new ProgressBar();
-            progressBar.Location = new Point(320, 454);  // Adjust location as needed
-            progressBar.Size = new Size(280, 23);       // Adjust size as needed
+            progressBar.Location = new Point(320, 454);  
+            progressBar.Size = new Size(500, 60);      
             progressBar.Maximum = totalQuestionsToAsk;
             this.Controls.Add(progressBar);
         }
@@ -182,6 +183,7 @@ namespace Son_of_Duo
             else
             {
                 lblQuestion.Text = "Game Over!";
+                this.BtnBack.Show();
                 btnSubmit.Enabled = false;
                 this.BackColor = SystemColors.Control;
                 btnSubmit.BackColor = SystemColors.Control;
@@ -197,7 +199,7 @@ namespace Son_of_Duo
                 this.BackColor = Color.LightGreen;
                 btnSubmit.BackColor = Color.Green;
 
-                await Task.Delay(2000); // Delay for 2000 milliseconds (2 seconds)
+                await Task.Delay(1000); 
 
                 currentQuestionIndex++;
                 NextQuestion();
@@ -213,11 +215,19 @@ namespace Son_of_Duo
         private void btnSubmit_Click_1(object sender, EventArgs e)
         {
             CheckAnswerAsync(txtAnswer.Text.Trim());
+            txtAnswer.Text = "";
         }
 
         private void label1_Click(object sender, EventArgs e)
         {
-            // This method can be used if you want to add any specific functionality for clicking the label.
+            
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            menu menu = new menu();
+            menu.Show();
         }
     }
 }
