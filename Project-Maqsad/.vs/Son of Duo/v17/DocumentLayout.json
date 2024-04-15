@@ -1,42 +1,46 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\mpoor\\Documents\\GitHub\\Language-Learning-Project\\Project-Maqsad\\",
+  "WorkspaceRootPath": "C:\\Users\\hadid\\OneDrive\\Desktop\\PROJECTS\\C#\\Language-Learning-Project\\Project-Maqsad\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{69FCBC56-AF6B-4797-8CFC-B3F1B4319930}|Son of Duo.csproj|c:\\users\\mpoor\\documents\\github\\language-learning-project\\project-maqsad\\game2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69FCBC56-AF6B-4797-8CFC-B3F1B4319930}|Son of Duo.csproj|solutionrelative:game2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{69FCBC56-AF6B-4797-8CFC-B3F1B4319930}|Son of Duo.csproj|c:\\users\\hadid\\onedrive\\desktop\\projects\\c#\\language-learning-project\\project-maqsad\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{69FCBC56-AF6B-4797-8CFC-B3F1B4319930}|Son of Duo.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69FCBC56-AF6B-4797-8CFC-B3F1B4319930}|Son of Duo.csproj|c:\\users\\mpoor\\documents\\github\\language-learning-project\\project-maqsad\\game2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69FCBC56-AF6B-4797-8CFC-B3F1B4319930}|Son of Duo.csproj|solutionrelative:game2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{69FCBC56-AF6B-4797-8CFC-B3F1B4319930}|Son of Duo.csproj|c:\\users\\hadid\\onedrive\\desktop\\projects\\c#\\language-learning-project\\project-maqsad\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{69FCBC56-AF6B-4797-8CFC-B3F1B4319930}|Son of Duo.csproj|solutionrelative:form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69FCBC56-AF6B-4797-8CFC-B3F1B4319930}|Son of Duo.csproj|c:\\users\\mpoor\\documents\\github\\language-learning-project\\project-maqsad\\game2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{69FCBC56-AF6B-4797-8CFC-B3F1B4319930}|Son of Duo.csproj|solutionrelative:game2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{69FCBC56-AF6B-4797-8CFC-B3F1B4319930}|Son of Duo.csproj|c:\\users\\hadid\\onedrive\\desktop\\projects\\c#\\language-learning-project\\project-maqsad\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{69FCBC56-AF6B-4797-8CFC-B3F1B4319930}|Son of Duo.csproj|solutionrelative:form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69FCBC56-AF6B-4797-8CFC-B3F1B4319930}|Son of Duo.csproj|C:\\Users\\mpoor\\Documents\\GitHub\\Language-Learning-Project\\Project-Maqsad\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{69FCBC56-AF6B-4797-8CFC-B3F1B4319930}|Son of Duo.csproj|solutionrelative:game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{69FCBC56-AF6B-4797-8CFC-B3F1B4319930}|Son of Duo.csproj|c:\\users\\hadid\\onedrive\\desktop\\projects\\c#\\language-learning-project\\project-maqsad\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{69FCBC56-AF6B-4797-8CFC-B3F1B4319930}|Son of Duo.csproj|solutionrelative:form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69FCBC56-AF6B-4797-8CFC-B3F1B4319930}|Son of Duo.csproj|C:\\Users\\mpoor\\Documents\\GitHub\\Language-Learning-Project\\Project-Maqsad\\quickgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{69FCBC56-AF6B-4797-8CFC-B3F1B4319930}|Son of Duo.csproj|solutionrelative:quickgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{69FCBC56-AF6B-4797-8CFC-B3F1B4319930}|Son of Duo.csproj|c:\\users\\hadid\\onedrive\\desktop\\projects\\c#\\language-learning-project\\project-maqsad\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{69FCBC56-AF6B-4797-8CFC-B3F1B4319930}|Son of Duo.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69FCBC56-AF6B-4797-8CFC-B3F1B4319930}|Son of Duo.csproj|c:\\users\\mpoor\\documents\\github\\language-learning-project\\project-maqsad\\quickgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{69FCBC56-AF6B-4797-8CFC-B3F1B4319930}|Son of Duo.csproj|c:\\users\\hadid\\onedrive\\desktop\\projects\\c#\\language-learning-project\\project-maqsad\\fb_mainf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{69FCBC56-AF6B-4797-8CFC-B3F1B4319930}|Son of Duo.csproj|solutionrelative:fb_mainf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69FCBC56-AF6B-4797-8CFC-B3F1B4319930}|Son of Duo.csproj|c:\\users\\hadid\\onedrive\\desktop\\projects\\c#\\language-learning-project\\project-maqsad\\fb_mainf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69FCBC56-AF6B-4797-8CFC-B3F1B4319930}|Son of Duo.csproj|solutionrelative:fb_mainf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69FCBC56-AF6B-4797-8CFC-B3F1B4319930}|Son of Duo.csproj|c:\\users\\hadid\\onedrive\\desktop\\projects\\c#\\language-learning-project\\project-maqsad\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69FCBC56-AF6B-4797-8CFC-B3F1B4319930}|Son of Duo.csproj|solutionrelative:form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69FCBC56-AF6B-4797-8CFC-B3F1B4319930}|Son of Duo.csproj|c:\\users\\hadid\\onedrive\\desktop\\projects\\c#\\language-learning-project\\project-maqsad\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69FCBC56-AF6B-4797-8CFC-B3F1B4319930}|Son of Duo.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69FCBC56-AF6B-4797-8CFC-B3F1B4319930}|Son of Duo.csproj|C:\\Users\\hadid\\OneDrive\\Desktop\\PROJECTS\\C#\\Language-Learning-Project\\Project-Maqsad\\quickgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{69FCBC56-AF6B-4797-8CFC-B3F1B4319930}|Son of Duo.csproj|solutionrelative:quickgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69FCBC56-AF6B-4797-8CFC-B3F1B4319930}|Son of Duo.csproj|C:\\Users\\mpoor\\Documents\\GitHub\\Language-Learning-Project\\Project-Maqsad\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69FCBC56-AF6B-4797-8CFC-B3F1B4319930}|Son of Duo.csproj|solutionrelative:menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69FCBC56-AF6B-4797-8CFC-B3F1B4319930}|Son of Duo.csproj|C:\\Users\\mpoor\\Documents\\GitHub\\Language-Learning-Project\\Project-Maqsad\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{69FCBC56-AF6B-4797-8CFC-B3F1B4319930}|Son of Duo.csproj|solutionrelative:menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69FCBC56-AF6B-4797-8CFC-B3F1B4319930}|Son of Duo.csproj|C:\\Users\\mpoor\\Documents\\GitHub\\Language-Learning-Project\\Project-Maqsad\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{69FCBC56-AF6B-4797-8CFC-B3F1B4319930}|Son of Duo.csproj|solutionrelative:game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,120 +50,131 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Game2.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\mpoor\\Documents\\GitHub\\Language-Learning-Project\\Project-Maqsad\\Game2.Designer.cs",
-              "RelativeDocumentMoniker": "Game2.Designer.cs",
-              "ToolTip": "C:\\Users\\mpoor\\Documents\\GitHub\\Language-Learning-Project\\Project-Maqsad\\Game2.Designer.cs",
-              "RelativeToolTip": "Game2.Designer.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAQwDEAAAAAAAAA",
+              "Title": "Form5.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\hadid\\OneDrive\\Desktop\\PROJECTS\\C#\\Language-Learning-Project\\Project-Maqsad\\Form5.cs",
+              "RelativeDocumentMoniker": "Form5.cs",
+              "ToolTip": "C:\\Users\\hadid\\OneDrive\\Desktop\\PROJECTS\\C#\\Language-Learning-Project\\Project-Maqsad\\Form5.cs [Design]",
+              "RelativeToolTip": "Form5.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T16:57:20.252Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Game2.cs",
-              "DocumentMoniker": "C:\\Users\\mpoor\\Documents\\GitHub\\Language-Learning-Project\\Project-Maqsad\\Game2.cs",
-              "RelativeDocumentMoniker": "Game2.cs",
-              "ToolTip": "C:\\Users\\mpoor\\Documents\\GitHub\\Language-Learning-Project\\Project-Maqsad\\Game2.cs",
-              "RelativeToolTip": "Game2.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T16:55:29.043Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Game2.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\mpoor\\Documents\\GitHub\\Language-Learning-Project\\Project-Maqsad\\Game2.cs",
-              "RelativeDocumentMoniker": "Game2.cs",
-              "ToolTip": "C:\\Users\\mpoor\\Documents\\GitHub\\Language-Learning-Project\\Project-Maqsad\\Game2.cs [Design]",
-              "RelativeToolTip": "Game2.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T16:52:29.881Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Quickgame.cs",
-              "DocumentMoniker": "C:\\Users\\mpoor\\Documents\\GitHub\\Language-Learning-Project\\Project-Maqsad\\Quickgame.cs",
-              "RelativeDocumentMoniker": "Quickgame.cs",
-              "ToolTip": "C:\\Users\\mpoor\\Documents\\GitHub\\Language-Learning-Project\\Project-Maqsad\\Quickgame.cs",
-              "RelativeToolTip": "Quickgame.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAgwDcAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T03:57:35.367Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Quickgame.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\mpoor\\Documents\\GitHub\\Language-Learning-Project\\Project-Maqsad\\Quickgame.cs",
-              "RelativeDocumentMoniker": "Quickgame.cs",
-              "ToolTip": "C:\\Users\\mpoor\\Documents\\GitHub\\Language-Learning-Project\\Project-Maqsad\\Quickgame.cs [Design]",
-              "RelativeToolTip": "Quickgame.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T03:57:32.08Z",
+              "WhenOpened": "2024-04-15T20:39:48.669Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Game.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\mpoor\\Documents\\GitHub\\Language-Learning-Project\\Project-Maqsad\\Game.cs",
-              "RelativeDocumentMoniker": "Game.cs",
-              "ToolTip": "C:\\Users\\mpoor\\Documents\\GitHub\\Language-Learning-Project\\Project-Maqsad\\Game.cs [Design]",
-              "RelativeToolTip": "Game.cs [Design]",
+              "Title": "Form3.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\hadid\\OneDrive\\Desktop\\PROJECTS\\C#\\Language-Learning-Project\\Project-Maqsad\\Form3.cs",
+              "RelativeDocumentMoniker": "Form3.cs",
+              "ToolTip": "C:\\Users\\hadid\\OneDrive\\Desktop\\PROJECTS\\C#\\Language-Learning-Project\\Project-Maqsad\\Form3.cs [Design]",
+              "RelativeToolTip": "Form3.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T03:57:27.756Z",
+              "WhenOpened": "2024-04-15T20:39:41.96Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\hadid\\OneDrive\\Desktop\\PROJECTS\\C#\\Language-Learning-Project\\Project-Maqsad\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\hadid\\OneDrive\\Desktop\\PROJECTS\\C#\\Language-Learning-Project\\Project-Maqsad\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T20:39:18.322Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form4.cs",
+              "DocumentMoniker": "C:\\Users\\hadid\\OneDrive\\Desktop\\PROJECTS\\C#\\Language-Learning-Project\\Project-Maqsad\\Form4.cs",
+              "RelativeDocumentMoniker": "Form4.cs",
+              "ToolTip": "C:\\Users\\hadid\\OneDrive\\Desktop\\PROJECTS\\C#\\Language-Learning-Project\\Project-Maqsad\\Form4.cs",
+              "RelativeToolTip": "Form4.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwC0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T20:36:13.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form4.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\hadid\\OneDrive\\Desktop\\PROJECTS\\C#\\Language-Learning-Project\\Project-Maqsad\\Form4.cs",
+              "RelativeDocumentMoniker": "Form4.cs",
+              "ToolTip": "C:\\Users\\hadid\\OneDrive\\Desktop\\PROJECTS\\C#\\Language-Learning-Project\\Project-Maqsad\\Form4.cs [Design]",
+              "RelativeToolTip": "Form4.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T20:36:08.644Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "C:\\Users\\hadid\\OneDrive\\Desktop\\PROJECTS\\C#\\Language-Learning-Project\\Project-Maqsad\\Form2.cs",
+              "RelativeDocumentMoniker": "Form2.cs",
+              "ToolTip": "C:\\Users\\hadid\\OneDrive\\Desktop\\PROJECTS\\C#\\Language-Learning-Project\\Project-Maqsad\\Form2.cs",
+              "RelativeToolTip": "Form2.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T20:36:00.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form2.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\hadid\\OneDrive\\Desktop\\PROJECTS\\C#\\Language-Learning-Project\\Project-Maqsad\\Form2.cs",
+              "RelativeDocumentMoniker": "Form2.cs",
+              "ToolTip": "C:\\Users\\hadid\\OneDrive\\Desktop\\PROJECTS\\C#\\Language-Learning-Project\\Project-Maqsad\\Form2.cs [Design]",
+              "RelativeToolTip": "Form2.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T20:35:48.037Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FB_MAINF.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\hadid\\OneDrive\\Desktop\\PROJECTS\\C#\\Language-Learning-Project\\Project-Maqsad\\FB_MAINF.cs",
+              "RelativeDocumentMoniker": "FB_MAINF.cs",
+              "ToolTip": "C:\\Users\\hadid\\OneDrive\\Desktop\\PROJECTS\\C#\\Language-Learning-Project\\Project-Maqsad\\FB_MAINF.cs [Design]",
+              "RelativeToolTip": "FB_MAINF.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T20:26:28.625Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Menu.cs",
-              "DocumentMoniker": "C:\\Users\\mpoor\\Documents\\GitHub\\Language-Learning-Project\\Project-Maqsad\\Menu.cs",
-              "RelativeDocumentMoniker": "Menu.cs",
-              "ToolTip": "C:\\Users\\mpoor\\Documents\\GitHub\\Language-Learning-Project\\Project-Maqsad\\Menu.cs",
-              "RelativeToolTip": "Menu.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAgwD8AAAAIAAAA",
+              "Title": "FB_MAINF.cs",
+              "DocumentMoniker": "C:\\Users\\hadid\\OneDrive\\Desktop\\PROJECTS\\C#\\Language-Learning-Project\\Project-Maqsad\\FB_MAINF.cs",
+              "RelativeDocumentMoniker": "FB_MAINF.cs",
+              "ToolTip": "C:\\Users\\hadid\\OneDrive\\Desktop\\PROJECTS\\C#\\Language-Learning-Project\\Project-Maqsad\\FB_MAINF.cs",
+              "RelativeToolTip": "FB_MAINF.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T03:57:17.366Z"
+              "WhenOpened": "2024-04-15T20:18:06.189Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Menu.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\mpoor\\Documents\\GitHub\\Language-Learning-Project\\Project-Maqsad\\Menu.cs",
-              "RelativeDocumentMoniker": "Menu.cs",
-              "ToolTip": "C:\\Users\\mpoor\\Documents\\GitHub\\Language-Learning-Project\\Project-Maqsad\\Menu.cs [Design]",
-              "RelativeToolTip": "Menu.cs [Design]",
+              "DocumentIndex": 9,
+              "Title": "Quickgame.cs",
+              "DocumentMoniker": "C:\\Users\\hadid\\OneDrive\\Desktop\\PROJECTS\\C#\\Language-Learning-Project\\Project-Maqsad\\Quickgame.cs",
+              "RelativeDocumentMoniker": "Quickgame.cs",
+              "ToolTip": "C:\\Users\\hadid\\OneDrive\\Desktop\\PROJECTS\\C#\\Language-Learning-Project\\Project-Maqsad\\Quickgame.cs",
+              "RelativeToolTip": "Quickgame.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAwBwAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T03:57:14.372Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Game1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\mpoor\\Documents\\GitHub\\Language-Learning-Project\\Project-Maqsad\\Game1.cs",
-              "RelativeDocumentMoniker": "Game1.cs",
-              "ToolTip": "C:\\Users\\mpoor\\Documents\\GitHub\\Language-Learning-Project\\Project-Maqsad\\Game1.cs [Design]",
-              "RelativeToolTip": "Game1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T03:57:03.651Z"
+              "WhenOpened": "2024-04-13T03:57:35.367Z",
+              "EditorCaption": ""
             }
           ]
         }
