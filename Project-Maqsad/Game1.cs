@@ -21,8 +21,6 @@ namespace Son_of_Duo
     "Vert", "Green",
     "Bleu", "Blue",
     "Voiture", "Car",
-    "Hola","Hello"
-   
         };
         private Random random = new Random();
         private Button firstClicked = null;
