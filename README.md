@@ -1,3 +1,3 @@
 # Language-Learning-Project
-Devs: Sahaj
+Devs: Sahaj, Hadid, Mahan
       
