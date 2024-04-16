@@ -77,8 +77,9 @@ namespace Son_of_Duo
         }
 
         private void button6_Click(object sender, EventArgs e)
-        {
-
+        {this.Hide();
+            FillBlanks gaame = new FillBlanks();
+            gaame.Show();
         }
 
         private void button7_Click(object sender, EventArgs e)

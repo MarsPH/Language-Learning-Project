@@ -1,6 +1,6 @@
 ﻿namespace Son_of_Duo
 {
-    partial class Game2
+    partial class FillBlanks
     {
         /// <summary>
         /// Required designer variable.
@@ -39,9 +39,10 @@
             // 
             lblQuestion.AutoSize = true;
             lblQuestion.Font = new Font("Segoe UI", 20F);
-            lblQuestion.Location = new Point(267, 152);
+            lblQuestion.Location = new Point(214, 122);
+            lblQuestion.Margin = new Padding(2, 0, 2, 0);
             lblQuestion.Name = "lblQuestion";
-            lblQuestion.Size = new Size(425, 54);
+            lblQuestion.Size = new Size(359, 46);
             lblQuestion.TabIndex = 0;
             lblQuestion.Text = "Question appears here";
             lblQuestion.Click += label1_Click;
@@ -49,26 +50,29 @@
             // txtAnswer
             // 
             txtAnswer.Font = new Font("Segoe UI", 25F);
-            txtAnswer.Location = new Point(259, 349);
+            txtAnswer.Location = new Point(207, 279);
+            txtAnswer.Margin = new Padding(2, 2, 2, 2);
             txtAnswer.Name = "txtAnswer";
-            txtAnswer.Size = new Size(667, 74);
+            txtAnswer.Size = new Size(534, 63);
             txtAnswer.TabIndex = 1;
             // 
             // lblMessage
             // 
             lblMessage.Font = new Font("Segoe UI", 15F);
-            lblMessage.Location = new Point(143, 621);
+            lblMessage.Location = new Point(115, 489);
+            lblMessage.Margin = new Padding(2, 0, 2, 0);
             lblMessage.Name = "lblMessage";
-            lblMessage.Size = new Size(923, 90);
+            lblMessage.Size = new Size(738, 72);
             lblMessage.TabIndex = 2;
             lblMessage.Text = "Feedback appears heressss\r\n\r\n\r\n\r\n";
             // 
             // btnSubmit
             // 
             btnSubmit.Font = new Font("Segoe UI", 50F);
-            btnSubmit.Location = new Point(129, 724);
+            btnSubmit.Location = new Point(103, 579);
+            btnSubmit.Margin = new Padding(2, 2, 2, 2);
             btnSubmit.Name = "btnSubmit";
-            btnSubmit.Size = new Size(937, 199);
+            btnSubmit.Size = new Size(750, 159);
             btnSubmit.TabIndex = 3;
             btnSubmit.Text = "Submit";
             btnSubmit.UseVisualStyleBackColor = true;
@@ -76,10 +80,11 @@
             // 
             // BtnBack
             // 
-            BtnBack.Font = new Font("Segoe UI", 35F);
-            BtnBack.Location = new Point(129, 724);
+            BtnBack.Font = new Font("Showcard Gothic", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            BtnBack.Location = new Point(11, 11);
+            BtnBack.Margin = new Padding(2, 2, 2, 2);
             BtnBack.Name = "BtnBack";
-            BtnBack.Size = new Size(937, 199);
+            BtnBack.Size = new Size(83, 30);
             BtnBack.TabIndex = 4;
             BtnBack.Text = "Back";
             BtnBack.UseVisualStyleBackColor = true;
@@ -87,15 +92,16 @@
             // 
             // Game2
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1223, 985);
+            ClientSize = new Size(978, 788);
             ControlBox = false;
             Controls.Add(BtnBack);
             Controls.Add(btnSubmit);
             Controls.Add(lblMessage);
             Controls.Add(txtAnswer);
             Controls.Add(lblQuestion);
+            Margin = new Padding(2, 2, 2, 2);
             Name = "Game2";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Game2";

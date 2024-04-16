@@ -28,19 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Quickgame));
             button1 = new Button();
             pictureBox1 = new PictureBox();
             label1 = new Label();
             textBox1 = new TextBox();
             button2 = new Button();
-            pictureBox2 = new PictureBox();
             button3 = new Button();
             button5 = new Button();
             button6 = new Button();
             button7 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
             // button1
@@ -60,9 +57,9 @@
             pictureBox1.BackColor = Color.Transparent;
             pictureBox1.BackgroundImageLayout = ImageLayout.Zoom;
             pictureBox1.Image = Properties.Resources._5cb78e957ff3656569c8cec0;
-            pictureBox1.Location = new Point(-3, 315);
+            pictureBox1.Location = new Point(-3, 238);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(348, 474);
+            pictureBox1.Size = new Size(370, 551);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 3;
             pictureBox1.TabStop = false;
@@ -73,7 +70,7 @@
             label1.AutoSize = true;
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Showcard Gothic", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(351, 378);
+            label1.Location = new Point(351, 387);
             label1.Name = "label1";
             label1.Size = new Size(482, 87);
             label1.TabIndex = 4;
@@ -99,16 +96,6 @@
             button2.Text = "Submit";
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
-            // 
-            // pictureBox2
-            // 
-            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(-3, -1);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(988, 790);
-            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox2.TabIndex = 7;
-            pictureBox2.TabStop = false;
             // 
             // button3
             // 
@@ -158,7 +145,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = SystemColors.ButtonHighlight;
+            BackColor = SystemColors.ActiveCaption;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(982, 788);
             ControlBox = false;
@@ -170,13 +157,11 @@
             Controls.Add(label1);
             Controls.Add(pictureBox1);
             Controls.Add(button1);
-            Controls.Add(pictureBox2);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "Quickgame";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Quickgame";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -188,7 +173,6 @@
         private Label label1;
         private TextBox textBox1;
         private Button button2;
-        private PictureBox pictureBox2;
 
         private Button button3;
         private Button button5;

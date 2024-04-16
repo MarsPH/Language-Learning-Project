@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace Son_of_Duo
 {
-    public partial class Game2 : Form
+    public partial class FillBlanks : Form
     {
         private int currentQuestionIndex = 0;
         private List<int> selectedIndexes = new List<int>();
@@ -139,13 +139,13 @@ namespace Son_of_Duo
     "vivre conjugates to 'vis' in the first person singular."
         };
 
-        public Game2()
+        public FillBlanks()
         {
             InitializeComponent();
             InitializeProgressBar();
             SelectRandomQuestions();
             NextQuestion();
-            BtnBack.Visible = false;
+          
         }
 
         private void InitializeProgressBar()
@@ -183,7 +183,7 @@ namespace Son_of_Duo
             else
             {
                 lblQuestion.Text = "Game Over!";
-                this.BtnBack.Show();
+                
                 btnSubmit.Enabled = false;
                 this.BackColor = SystemColors.Control;
                 btnSubmit.BackColor = SystemColors.Control;
