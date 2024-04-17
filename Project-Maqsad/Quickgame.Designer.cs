@@ -30,7 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Quickgame));
             button1 = new Button();
-            pictureBox1 = new PictureBox();
+            PatrickNeutral = new PictureBox();
             label1 = new Label();
             textBox1 = new TextBox();
             button2 = new Button();
@@ -40,7 +40,7 @@
             button5 = new Button();
             button6 = new Button();
             button7 = new Button();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)PatrickNeutral).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
@@ -49,7 +49,7 @@
             button1.BackColor = SystemColors.ButtonHighlight;
             button1.Font = new Font("Showcard Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button1.Location = new Point(15, 15);
-            button1.Margin = new Padding(4, 4, 4, 4);
+            button1.Margin = new Padding(4);
             button1.Name = "button1";
             button1.Size = new Size(118, 36);
             button1.TabIndex = 2;
@@ -57,19 +57,19 @@
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
-            // pictureBox1
+            // PatrickNeutral
             // 
-            pictureBox1.BackColor = Color.Transparent;
-            pictureBox1.BackgroundImageLayout = ImageLayout.Zoom;
-            pictureBox1.Image = Properties.Resources._5cb78e957ff3656569c8cec0;
-            pictureBox1.Location = new Point(-4, 394);
-            pictureBox1.Margin = new Padding(4, 4, 4, 4);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(435, 592);
-            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox1.TabIndex = 3;
-            pictureBox1.TabStop = false;
-            pictureBox1.Click += pictureBox1_Click;
+            PatrickNeutral.BackColor = Color.White;
+            PatrickNeutral.BackgroundImageLayout = ImageLayout.Zoom;
+            PatrickNeutral.Image = Properties.Resources._5cb78e957ff3656569c8cec0;
+            PatrickNeutral.Location = new Point(-4, 394);
+            PatrickNeutral.Margin = new Padding(4);
+            PatrickNeutral.Name = "PatrickNeutral";
+            PatrickNeutral.Size = new Size(435, 592);
+            PatrickNeutral.SizeMode = PictureBoxSizeMode.StretchImage;
+            PatrickNeutral.TabIndex = 3;
+            PatrickNeutral.TabStop = false;
+            PatrickNeutral.Click += pictureBox1_Click;
             // 
             // label1
             // 
@@ -88,7 +88,7 @@
             // 
             textBox1.Font = new Font("Showcard Gothic", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             textBox1.Location = new Point(439, 618);
-            textBox1.Margin = new Padding(4, 4, 4, 4);
+            textBox1.Margin = new Padding(4);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(264, 42);
             textBox1.TabIndex = 5;
@@ -98,7 +98,7 @@
             // 
             button2.Font = new Font("Showcard Gothic", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button2.Location = new Point(439, 670);
-            button2.Margin = new Padding(4, 4, 4, 4);
+            button2.Margin = new Padding(4);
             button2.Name = "button2";
             button2.Size = new Size(171, 54);
             button2.TabIndex = 6;
@@ -108,11 +108,12 @@
             // 
             // pictureBox2
             // 
+            pictureBox2.BackColor = Color.Transparent;
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(-4, -1);
-            pictureBox2.Margin = new Padding(4, 4, 4, 4);
+            pictureBox2.Location = new Point(-4, -2);
+            pictureBox2.Margin = new Padding(4);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(1235, 988);
+            pictureBox2.Size = new Size(1512, 988);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 7;
             pictureBox2.TabStop = false;
@@ -132,7 +133,7 @@
             // 
             button4.Font = new Font("Showcard Gothic", 10.8F);
             button4.Location = new Point(596, 618);
-            button4.Margin = new Padding(4, 4, 4, 4);
+            button4.Margin = new Padding(4);
             button4.Name = "button4";
             button4.Size = new Size(262, 36);
             button4.TabIndex = 9;
@@ -144,7 +145,7 @@
             // 
             button5.Font = new Font("Showcard Gothic", 10.8F);
             button5.Location = new Point(596, 661);
-            button5.Margin = new Padding(4, 4, 4, 4);
+            button5.Margin = new Padding(4);
             button5.Name = "button5";
             button5.Size = new Size(262, 36);
             button5.TabIndex = 10;
@@ -156,7 +157,7 @@
             // 
             button6.Font = new Font("Showcard Gothic", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button6.Location = new Point(596, 705);
-            button6.Margin = new Padding(4, 4, 4, 4);
+            button6.Margin = new Padding(4);
             button6.Name = "button6";
             button6.Size = new Size(262, 36);
             button6.TabIndex = 11;
@@ -168,7 +169,7 @@
             // 
             button7.Font = new Font("Showcard Gothic", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button7.Location = new Point(439, 670);
-            button7.Margin = new Padding(4, 4, 4, 4);
+            button7.Margin = new Padding(4);
             button7.Name = "button7";
             button7.Size = new Size(171, 54);
             button7.TabIndex = 12;
@@ -191,15 +192,15 @@
             Controls.Add(button2);
             Controls.Add(textBox1);
             Controls.Add(label1);
-            Controls.Add(pictureBox1);
+            Controls.Add(PatrickNeutral);
             Controls.Add(button1);
             Controls.Add(pictureBox2);
             FormBorderStyle = FormBorderStyle.FixedSingle;
-            Margin = new Padding(4, 4, 4, 4);
+            Margin = new Padding(4);
             Name = "Quickgame";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Quickgame";
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)PatrickNeutral).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -208,7 +209,7 @@
         #endregion
 
         private Button button1;
-        private PictureBox pictureBox1;
+        private PictureBox PatrickNeutral;
         private Label label1;
         private TextBox textBox1;
         private Button button2;

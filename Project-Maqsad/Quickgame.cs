@@ -20,6 +20,8 @@ namespace Son_of_Duo
             button5.Visible = false;
             button6.Visible = false;
             button7.Visible = false;
+            this.PatrickNeutral.BackColor = Color.LimeGreen;
+            this.TransparencyKey = Color.LimeGreen;
 
         }
 
