@@ -19,7 +19,6 @@ namespace Son_of_Duo
         private const int totalQuestionsToAsk = 10;
         private ProgressBar progressBar;
 
-        // Expanded pool of questions and answers
         private string[] allQuestions = new string[]
         {
              "Je ________ (être) heureux.",
@@ -151,8 +150,8 @@ namespace Son_of_Duo
         private void InitializeProgressBar()
         {
             progressBar = new ProgressBar();
-            progressBar.Location = new Point(320, 454);  
-            progressBar.Size = new Size(500, 60);      
+            progressBar.Location = new Point(207, 380);  
+            progressBar.Size = new Size(530, 60);      
             progressBar.Maximum = totalQuestionsToAsk;
             this.Controls.Add(progressBar);
         }

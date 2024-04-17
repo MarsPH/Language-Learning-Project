@@ -44,7 +44,7 @@ namespace Son_of_Duo
         public static int RandomNumber()
         {
             Random random = new Random();
-            int randomNumber = random.Next(0, 119);
+            int randomNumber = random.Next(0, 100);
 
             return randomNumber;
         }

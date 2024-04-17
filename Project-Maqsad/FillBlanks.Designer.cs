@@ -51,7 +51,7 @@
             // 
             txtAnswer.Font = new Font("Segoe UI", 25F);
             txtAnswer.Location = new Point(207, 279);
-            txtAnswer.Margin = new Padding(2, 2, 2, 2);
+            txtAnswer.Margin = new Padding(2);
             txtAnswer.Name = "txtAnswer";
             txtAnswer.Size = new Size(534, 63);
             txtAnswer.TabIndex = 1;
@@ -70,7 +70,7 @@
             // 
             btnSubmit.Font = new Font("Segoe UI", 50F);
             btnSubmit.Location = new Point(103, 579);
-            btnSubmit.Margin = new Padding(2, 2, 2, 2);
+            btnSubmit.Margin = new Padding(2);
             btnSubmit.Name = "btnSubmit";
             btnSubmit.Size = new Size(750, 159);
             btnSubmit.TabIndex = 3;
@@ -82,7 +82,7 @@
             // 
             BtnBack.Font = new Font("Showcard Gothic", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             BtnBack.Location = new Point(11, 11);
-            BtnBack.Margin = new Padding(2, 2, 2, 2);
+            BtnBack.Margin = new Padding(2);
             BtnBack.Name = "BtnBack";
             BtnBack.Size = new Size(83, 30);
             BtnBack.TabIndex = 4;
@@ -90,10 +90,11 @@
             BtnBack.UseVisualStyleBackColor = true;
             BtnBack.Click += button1_Click;
             // 
-            // Game2
+            // FillBlanks
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.ActiveCaption;
             ClientSize = new Size(978, 788);
             ControlBox = false;
             Controls.Add(BtnBack);
@@ -101,8 +102,9 @@
             Controls.Add(lblMessage);
             Controls.Add(txtAnswer);
             Controls.Add(lblQuestion);
-            Margin = new Padding(2, 2, 2, 2);
-            Name = "Game2";
+            ForeColor = SystemColors.ActiveCaptionText;
+            Margin = new Padding(2);
+            Name = "FillBlanks";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Game2";
             ResumeLayout(false);
