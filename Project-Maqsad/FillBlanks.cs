@@ -12,14 +12,13 @@ using System.Threading.Tasks;
 
 namespace Son_of_Duo
 {
-    public partial class Game2 : Form
+    public partial class FillBlanks : Form
     {
         private int currentQuestionIndex = 0;
         private List<int> selectedIndexes = new List<int>();
         private const int totalQuestionsToAsk = 10;
         private ProgressBar progressBar;
 
-        // Expanded pool of questions and answers
         private string[] allQuestions = new string[]
         {
              "Je ________ (être) heureux.",
@@ -139,20 +138,20 @@ namespace Son_of_Duo
     "vivre conjugates to 'vis' in the first person singular."
         };
 
-        public Game2()
+        public FillBlanks()
         {
             InitializeComponent();
             InitializeProgressBar();
             SelectRandomQuestions();
             NextQuestion();
-            BtnBack.Visible = false;
+          
         }
 
         private void InitializeProgressBar()
         {
             progressBar = new ProgressBar();
-            progressBar.Location = new Point(320, 454);  
-            progressBar.Size = new Size(500, 60);      
+            progressBar.Location = new Point(207, 380);  
+            progressBar.Size = new Size(530, 60);      
             progressBar.Maximum = totalQuestionsToAsk;
             this.Controls.Add(progressBar);
         }
@@ -183,7 +182,7 @@ namespace Son_of_Duo
             else
             {
                 lblQuestion.Text = "Game Over!";
-                this.BtnBack.Show();
+                
                 btnSubmit.Enabled = false;
                 this.BackColor = SystemColors.Control;
                 btnSubmit.BackColor = SystemColors.Control;

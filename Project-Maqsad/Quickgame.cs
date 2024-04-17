@@ -16,7 +16,7 @@ namespace Son_of_Duo
         public Quickgame()
         {
             InitializeComponent();
-            button4.Visible = false;
+           
             button5.Visible = false;
             button6.Visible = false;
             button7.Visible = false;
@@ -77,8 +77,9 @@ namespace Son_of_Duo
         }
 
         private void button6_Click(object sender, EventArgs e)
-        {
-
+        {this.Hide();
+            FillBlanks gaame = new FillBlanks();
+            gaame.Show();
         }
 
         private void button7_Click(object sender, EventArgs e)
@@ -89,7 +90,7 @@ namespace Son_of_Duo
                 textBox1.Text = "";
                 button7.Hide();
                 textBox1.Hide();
-                button4.Visible = true;
+               
                 button5.Visible = true;
                 button6.Visible = true;
 
