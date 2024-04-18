@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace WinFormsApp3
 {
@@ -26,9 +27,12 @@ namespace WinFormsApp3
 
     public partial class Form3 : Form
     {
-        private string[] questions = { "How do you say house in french:_________", "How do you say window in french:_______" };
-        private string[] answers = { "Maison", "Fenetre" };
+        private string[] questions = { "House:_________", "Window:_______", "Car:________", "Computer:_________",
+        "Pencil:_________", "Friend:_________", "Water:_________", "Hair:_________","Eyes:__________", "Horse:__________"};
+        private string[] answers = { "Maison", "Fenêtre", "Voiture", "Ordinateur", "Crayon", "Ami", "Eau", "Cheveux", "Yeux", "Cheval" };
         private int currentQuestionIndex = 0;
+        int correct = 0;
+        int incorrect = 0;
 
         public Form3()
         {
@@ -45,8 +49,10 @@ namespace WinFormsApp3
             }
             else
             {
-                MessageBox.Show("All questions answered!");
+                MessageBox.Show("All questions answered!" + $"\nPoints:{correct}");
+
             }
+
         }
 
         private void submit_Button1_Click(object sender, EventArgs e)
@@ -59,14 +65,17 @@ namespace WinFormsApp3
                 if (userAnswer.Equals(correctAnswer, StringComparison.OrdinalIgnoreCase))
                 {
                     MessageBox.Show("Correct!");
+                    correct++;
                 }
                 else
                 {
                     MessageBox.Show("Incorrect. The correct answer is: " + correctAnswer);
+                    correct--;
                 }
 
                 currentQuestionIndex++;
                 DisplayQuestion();
+
             }
 
         }
@@ -76,6 +85,13 @@ namespace WinFormsApp3
             this.Hide();
             FB_MAINF FillingBrank = new FB_MAINF();
             FillingBrank.Show();
+        }
+
+        private void textBoxAnswer_TextChanged(object sender, EventArgs e)
+        {
+            textBoxAnswer.Text = textBoxAnswer.Text.ToUpper();
+
+            textBoxAnswer.SelectionStart = textBoxAnswer.Text.Length;
         }
     }
 }

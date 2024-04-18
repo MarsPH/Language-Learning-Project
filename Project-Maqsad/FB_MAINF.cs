@@ -35,5 +35,20 @@ namespace Son_of_Duo
             Form4 open = new Form4();
             open.Show();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Form1 open = new Form1();
+            open.Show();
+        }
+
+        private void button_Back_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            menu menu = new menu();
+            menu.Show();
+
+
+        }
     }
 }

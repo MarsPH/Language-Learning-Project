@@ -52,11 +52,12 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(338, 39);
+            label1.Font = new Font("Snap ITC", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(243, 9);
             label1.Name = "label1";
-            label1.Size = new Size(136, 15);
+            label1.Size = new Size(244, 22);
             label1.TabIndex = 1;
-            label1.Text = "Choose the right option.";
+            label1.Text = "Choose the right verbe";
             // 
             // textBox_Questions
             // 

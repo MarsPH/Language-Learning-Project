@@ -32,6 +32,8 @@
             button2 = new Button();
             button3 = new Button();
             label1 = new Label();
+            button4 = new Button();
+            button_Back = new Button();
             SuspendLayout();
             // 
             // button1
@@ -73,11 +75,33 @@
             label1.TabIndex = 3;
             label1.Text = "Fill in the Game";
             // 
+            // button4
+            // 
+            button4.Location = new Point(269, 249);
+            button4.Name = "button4";
+            button4.Size = new Size(188, 23);
+            button4.TabIndex = 4;
+            button4.Text = "Can you correct your mistakes";
+            button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
+            // 
+            // button_Back
+            // 
+            button_Back.Location = new Point(128, 323);
+            button_Back.Name = "button_Back";
+            button_Back.Size = new Size(75, 23);
+            button_Back.TabIndex = 5;
+            button_Back.Text = "Back";
+            button_Back.UseVisualStyleBackColor = true;
+            button_Back.Click += button_Back_Click;
+            // 
             // FB_MAINF
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(button_Back);
+            Controls.Add(button4);
             Controls.Add(label1);
             Controls.Add(button3);
             Controls.Add(button2);
@@ -94,5 +118,7 @@
         private Button button2;
         private Button button3;
         private Label label1;
+        private Button button4;
+        private Button button_Back;
     }
 }

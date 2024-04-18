@@ -13,8 +13,28 @@ namespace WinFormsApp3
 {
     public partial class Form4 : Form
     {
-        private string[] questions = { "Je ____ un etudiant.", "J'____ des amis au Quebec.", "Je n'---- jamais vu un ours.", "Il ____ a l'aeroport" };
-        private string[] answers = { "suis", "ai", "ai" };
+       
+
+        private string[] questions = { "Je ____ un etudiant.", "J'____ des amis au Quebec.", "Je n'---- jamais vu un ours.", "Il ____ a l'aeroport", "Hier, mon ami s'____ fait battu par des membres de Mafia.",  };
+        private string[] answers = { "suis", "ai", "ai", "part"};
+        Random rnd = new Random();
+
+        
+
+        static void Shuffle<T>(T[] questions)
+        {
+            Random rnd = new Random();
+            for (int i =questions.Length; i > 0; i++)
+            {
+                int j = rnd.Next(questions.Length);
+
+                T temp = questions[i];
+                questions[i] = questions[j];
+                questions[j] = temp;    
+
+            }
+        }
+
         private int currentQuestionIndex = 0;
         public Form4()
         {

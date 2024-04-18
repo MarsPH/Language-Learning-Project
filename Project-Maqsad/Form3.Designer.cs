@@ -49,9 +49,10 @@
             // label1
             // 
             label1.BorderStyle = BorderStyle.Fixed3D;
-            label1.Location = new Point(249, 37);
+            label1.Font = new Font("Stencil", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(249, 21);
             label1.Name = "label1";
-            label1.Size = new Size(100, 23);
+            label1.Size = new Size(195, 23);
             label1.TabIndex = 1;
             label1.Text = "fill in the blank";
             // 
@@ -68,6 +69,7 @@
             textBoxAnswer.Name = "textBoxAnswer";
             textBoxAnswer.Size = new Size(100, 23);
             textBoxAnswer.TabIndex = 3;
+            textBoxAnswer.TextChanged += textBoxAnswer_TextChanged;
             // 
             // submit_Button1
             // 
@@ -93,11 +95,11 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(label1);
             Controls.Add(label2);
             Controls.Add(submit_Button1);
             Controls.Add(textBoxAnswer);
             Controls.Add(labelQuestion);
-            Controls.Add(label1);
             Controls.Add(button1);
             Name = "Form3";
             Text = "Vocabulaire";
